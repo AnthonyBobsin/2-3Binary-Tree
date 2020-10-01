@@ -155,7 +155,7 @@ enum KeyStatus ins(struct node *ptr, int key, int *upKey,struct node **newnode)
     /*If keys in nodes are maximum and position of node to be inserted is last*/
     if (pos == M - 1)
     {
-        lastKey = newKey;
+        lastKey = newkey;
         lastPtr = newPtr;
     }
     else /*If keys in node are maximum and position of node to be inserted is not last*/
